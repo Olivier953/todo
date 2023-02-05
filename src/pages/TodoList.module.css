@@ -1,0 +1,33 @@
+.todoListContent{
+display:grid;
+place-items: center;
+}
+
+.inputContent input{
+    width: 12rem;
+    margin-top: 10px;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid black ;
+    outline: none;
+}
+
+.inputContent button{
+    height: 2rem;
+    cursor: pointer;
+    width: 5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.todoListContent ul{
+    list-style: none;
+    margin-left: -10rem;
+}
+
+.itemListContent button{
+margin-left: 10px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+}
